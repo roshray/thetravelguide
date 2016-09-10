@@ -1,0 +1,1464 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1443603331487 "http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl"
+     xmlns:Ontology1443603331487="http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Alias -->
+
+    <owl:DatatypeProperty rdf:about="#Alias"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#District -->
+
+    <owl:DatatypeProperty rdf:about="#District">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#best_time_to_visit -->
+
+    <owl:DatatypeProperty rdf:about="#best_time_to_visit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#city -->
+
+    <owl:DatatypeProperty rdf:about="#city"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#coordinates -->
+
+    <owl:DatatypeProperty rdf:about="#coordinates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#description -->
+
+    <owl:DatatypeProperty rdf:about="#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#famous_food -->
+
+    <owl:DatatypeProperty rdf:about="#famous_food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#history -->
+
+    <owl:DatatypeProperty rdf:about="#history"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#languages_spoken -->
+
+    <owl:DatatypeProperty rdf:about="#languages_spoken"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#photos -->
+
+    <owl:DatatypeProperty rdf:about="#photos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#pincode -->
+
+    <owl:DatatypeProperty rdf:about="#pincode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#reviews -->
+
+    <owl:DatatypeProperty rdf:about="#reviews"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#state -->
+
+    <owl:DatatypeProperty rdf:about="#state"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Ajmer_Sharif_Drgah -->
+
+    <owl:Thing rdf:about="#Ajmer_Sharif_Dargah">
+        <city>Ajmer</city>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <state>Rajasthan</state>
+        <famous_food>N/A</famous_food>
+        <history>Hazrat Khwaja Moinuddin Chishty Dargah of  Sufi saint at Ajmer, Rajasthan, India. It is old saying that people who visit Ajmer Sharif and pray with pure faith and loyalty at his Dargah will  free their soul. Hazrat Khawaja Moinuddin Hasan Chishti is also known by different names as, Khawaja Gharib Nawaz, “Sultan-Ul-Hind”, Khwaja Baba, Khwaja Gharib Nawaz Ajmeri, Khwaja Sahib, Khwaja Saheb, Khwaja Ajmeri Saint Moinuddin Chishty. The Dargah Khawaja Gharibnawaz ( R.A) has several tombs, buildings, Daalaans and courtyards are of  Mughal architecture.</history>
+        <pincode>305001</pincode>
+        <Alias
+            >Khwaja gahrib nawaz
+Dargah sharif</Alias>
+        <coordinates>complex</coordinates>
+        <description>Ajmer Sharif Dargah, Ajmer Dargah, Ajmer Sharif or Dargah Sharif is a sufi shrine (Dargah) of sufi saint, Moinuddin Chishti located at Ajmer, Rajasthan, India.The shrine has the grave (Maqbara) of the revered saint, Moinuddin Chisti.</description>
+        <languages_spoken>Hindi, Urdu</languages_spoken>
+        <photos>http://www.jaipur-tourism.net/wp-content/uploads/2012/09/Ajmer-Sharif-Khwaja-Garib-Nawaz.jpg</photos>
+        <District>Ajmer</District>
+        <reviews>N/A</reviews>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Amber_Fort -->
+
+    <owl:Thing rdf:about="#Amber_Fort">
+        <coordinates></coordinates>
+        <best_time_to_visit
+            >All Days 8:00 Am to 6:00 Pm</best_time_to_visit>
+        <state>Rajasthan</state>
+        <pincode>302001</pincode>
+        <District>Amer</District>
+        <languages_spoken
+            >Hindi , English (Local Accent)</languages_spoken>
+        <Alias
+            >Amer Palace
+Amber Palace</Alias>
+        <description>Amer Palace (spelled and pronounced as Amber) is located in Amer, a town with an area of 4 square kilometres (1.5 sq mi) located 11 kilometres (6.8 mi) from Jaipur, Rajasthan state, India. Located high on a hill, it is the principal tourist attractions in the Jaipur area. The town of Amer was originally built by Meenas, and later it was ruled by Raja Man Singh.</description>
+        <history
+            >The Amber Fort was built by &#8216;Raja Shri Maan Singh JI Saheb&#8217; (Maan Singh I) (December 21, 1550 &#8211; July 6, 1614) in 16th century.</history>
+        <city>Jaipur</city>
+        <famous_food>N/A</famous_food>
+        <photos>http://images.mapsofindia.com/my-india/amer-fort-jaipur.jpg</photos>
+        <reviews>N/A</reviews>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Bharatpur_Bird_Sanctuary -->
+
+    <owl:Thing rdf:about="#Bharatpur_Bird_Sanctuary">
+        <reviews>N/A</reviews>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/0/0e/Painted_Stork_at_Bharatpur_Bird_Sanctuary,_Bharatpur,_Rajasthan_India.jpg</photos>
+        <history
+            >Keoladeo Ghana National Park is a man-made and man-managed wetland and one of the national parks of India.</history>
+        <state>Rajasthan</state>
+        <famous_food>N/A</famous_food>
+        <pincode>302001</pincode>
+        <District>bharatpur</District>
+        <coordinates
+            >27&#176;10&#8242;00&#8243;N 77&#176;31&#8242;00&#8243;E</coordinates>
+        <city>Bharatpur</city>
+        <Alias
+            >Keoladeo National Park
+Keoladeo Ghana National Park</Alias>
+        <languages_spoken>Hindi , English</languages_spoken>
+        <best_time_to_visit>Summers</best_time_to_visit>
+        <description>The Keoladeo National Park or Keoladeo Ghana National Park formerly known as the Bharatpur Bird Sanctuary in Bharatpur, Rajasthan, India is a famous avifauna sanctuary that plays host to thousands of birds especially during the winter season. Over 230 species of birds are known to have made the National Park their home. It is also a major tourist centre with scores of ornithologists arriving here in the hibernal season. It was declared a protected sanctuary in 1971. It is also a declared World Heritage Site.</description>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Birla_Mandir_Temple -->
+
+    <owl:Thing rdf:about="#Birla_Mandir_Temple">
+        <languages_spoken
+            >Rajasthani, Hindi</languages_spoken>
+        <history
+            >Nothing Very Specific</history>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/3/3f/Birla_Temple_in_Jaipur.jpg</photos>
+        <reviews
+            >Bringing to you soon</reviews>
+        <coordinates>complex</coordinates>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <pincode>302004</pincode>
+        <famous_food>N/A</famous_food>
+        <Alias>None</Alias>
+        <state>Rajasthan.</state>
+        <District>Jaipur</District>
+        <description>Birla Mandir, Jaipur is a Hindu temple located in Jaipur, India and is part of one of the several Birla mandirs located all around the country. The grand temple is located on an elevated ground at the base of Moti Dungari hill in Rajasthan. The temple is sometimes also referred to as the Laxmi Narayan Temple.</description>
+        <city>Jaipur</city>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Bodhi_tree -->
+
+    <owl:Thing rdf:about="#Bodhi_tree">
+        <state>Bihar</state>
+        <city>Gaya</city>
+        <Alias>Bo</Alias>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/e/e4/Bodhgaya_3639641913_f4c5f73689_t.jpg</photos>
+        <history
+            >In religious iconography, the Bodhi tree is recognizable by its heart-shaped leaves, which are usually prominently displayed. Bodhi trees are planted in close proximity to every Buddhist monastery.</history>
+        <famous_food>Local Cuisine</famous_food>
+        <pincode>824231</pincode>
+        <best_time_to_visit>Summers</best_time_to_visit>
+        <coordinates
+            >24.6951&#176; N, 84.9913&#176; E</coordinates>
+        <languages_spoken>N/A</languages_spoken>
+        <District>Bodh Gaya</District>
+        <reviews>Soon</reviews>
+        <description>The Bodhi Tree, also known as Bo (from Sinhalese: Bo) and "peepal tree" in Nepal and Bhutan, was a large and very old sacred fig tree (Ficus religiosa) located in Bodh Gaya, India, under which Siddhartha Gautama, the spiritual teacher later known as Gautama Buddha, is said to have attained enlightenment, or Bodhi. In religious iconography, the Bodhi tree is recognizable by its heart-shaped leaves, which are usually prominently displayed. Bodhi trees are planted in close proximity to every Buddhist monastery.
+</description>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Buddha_Smriti_Park -->
+
+    <owl:Thing rdf:about="#Buddha_Smriti_Park">
+        <District>Patna</District>
+        <state>Bihar</state>
+        <reviews
+            >To be Uploaded soon</reviews>
+        <history
+            >The park has been constructed at the place where once historical Bankipur Central Jail of British era existed. After a new central jail was built at Beur on the outskirts of Patna, the old jail become redundant. The park is a brainchild of Chief Minister of Bihar, Nitish Kumar. Tibetan spiritual leader, the Dalai Lama, on 27 May 2010 inaugurated Buddha Smriti Park</history>
+        <Alias>None</Alias>
+        <famous_food>N/A</famous_food>
+        <best_time_to_visit>Anytime Evening</best_time_to_visit>
+        <description>Buddha Smriti Park is a park located on Frazer Road near Patna Junction in Patna, India. The park is sometimes also referred to as the Buddha Memorial Park. This park has been developed by the State Government to commemorate the 2554th birth anniversary of the Lord Buddha. This park was inaugurated by His Holiness the 14th Dalai Lama.</description>
+        <city>Patna</city>
+        <pincode>800001</pincode>
+        <photos
+            >https://en.wikipedia.org/wiki/Buddha_Smriti_Park#/media/File:Budhha-Memorial-Park-Patna.jpg</photos>
+        <coordinates
+            >25&#176;36&#8242;24&#8243;N 85&#176;8&#8242;10&#8243;E</coordinates>
+        <languages_spoken
+            >Hindi,Bihari,English(local Accent)</languages_spoken>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Chand_Baori -->
+
+    <owl:Thing rdf:about="#Chand_Baori">
+        <District>Jaipur</District>
+        <reviews>Coming soon</reviews>
+        <history
+            >Chand Baori is one of the oldest and most attractive landmarks in Rajasthan. It was built by King Chanda of the Nikumbha Dynasty between 800 and 900 AD</history>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <coordinates
+            >27.0072&#176; N, 76.6068&#176; E</coordinates>
+        <famous_food>local dishes</famous_food>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/e/ee/ChandBaori.jpg</photos>
+        <city>Jaipur</city>
+        <languages_spoken
+            >Hindi , English (local accent)</languages_spoken>
+        <pincode>303326</pincode>
+        <state>Rajasthan</state>
+        <Alias>None</Alias>
+        <description>Abhaneri is a village in the Dausa district of Rajasthan state in India. It is situated at a distance of 95 km from Jaipur, on the Jaipur-Agra road. Abhaneri is known also as a village of Mr Ramdhan Gurjar Ex Zila Parisad member,he is awarded many times by the Govt of Rajasthan for serving people.
+Abhaneri was originally named Abha Nagri, which means "city of brightness," but due to mispronunciation, the name was changed. The city is now in ruins, but it attracts tourists from across the globe. It is located opposite Harshat Mata Temple and was constructed in 800 AD. Chand Baori consists of 3,500 narrow steps over 13 stories. It extends approximately 30 m (100 ft) into the ground making it one of the deepest and largest stepwells in India.</description>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Chittorgarh_Fort -->
+
+    <owl:Thing rdf:about="#Chittorgarh_Fort">
+        <reviews>Uploading soon</reviews>
+        <District>Chittorgarh</District>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/6/6c/Chittorgarh_Fort.jpg</photos>
+        <Alias>Chittor Durg</Alias>
+        <best_time_to_visit>ANytime in day</best_time_to_visit>
+        <languages_spoken
+            >Rajasthani, Hindi, English(local)</languages_spoken>
+        <description
+            >Chittorgarh Fort is one of the largest forts in India. It is a World Heritage Site. The fort, popularly known as Chittor, was the capital of Mewar and is today situated in Chittorgarh. It was initially ruled by Guhilot and later by Sisodias, the Suryavanshi clans of Chattari Rajputs, from the 7th century, until it was finally abandoned in 1568 after the siege by Emperor Akbar in 1567. It sprawls majestically over a hill 180 m (590.6 ft) in height spread over an area of 280 ha (691.9 acres) above the plains of the valley drained by the Berach River. The fort precinct with an evocative history is studded with a series of historical palaces, gates, temples and two prominent commemoration towers. These monumental ruins have inspired the imagination of tourists and writers for centuries.</description>
+        <state>Rajasthan</state>
+        <famous_food>N/A</famous_food>
+        <city>Rajasthan</city>
+        <history
+            >It is a World Heritage Site. The fort, popularly known as Chittor, was the capital of Mewar and is today situated in Chittorgarh. It was initially ruled by Guhilot and later by Sisodias, the Suryavanshi clans of Chattari Rajputs, from the 7th century, until it was finally abandoned in 1568 after the siege by Emperor Akbar in 1567.</history>
+        <pincode>312001</pincode>
+        <coordinates
+            >24.8863&#176;N 74.647&#176;E</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#City_Palace_of_Udaipur -->
+
+    <owl:Thing rdf:about="#City_Palace_of_Udaipur">
+        <city>Udaipur</city>
+        <languages_spoken>Hindi</languages_spoken>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <coordinates
+            >24.5760&#176; N, 73.6830&#176; E</coordinates>
+        <reviews
+            >to be updated soon</reviews>
+        <District>Udaipur</District>
+        <famous_food
+            >Nothing specific local food only</famous_food>
+        <pincode>313001</pincode>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/6/69/Udaipur_City_Palace.jpg</photos>
+        <Alias
+            >City Palace Complex</Alias>
+        <description
+            >City Palace, Udaipur, is a palace complex in Udaipur, in the Indian state Rajasthan. It was built over a period of nearly 400 years being contributed by several kings of the dynasty, starting by the Maharana Udai Singh II as the capital of the Sisodia Rajput clan in 1559, after he moved from Chittor. It is located on the east bank of the Lake Pichola and has several palaces built within its complex. Udaipur was the historic capital of the former kingdom of Mewar in the Rajputana Agency and its last capital.</description>
+        <state>Rajasthan</state>
+        <history
+            >It was built over a period of nearly 400 years being contributed by several kings of the dynasty, starting by the Maharana Udai Singh II.</history>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#City_palace -->
+
+    <owl:Thing rdf:about="#City_palace">
+        <city>Jaipur</city>
+        <pincode>302002</pincode>
+        <photos
+            >https://upload.wikimedia.org/wikipedia/commons/3/32/Pritam_niwas_with.jpg</photos>
+        <Alias>None</Alias>
+        <District>jaipur</District>
+        <history
+            >It was the seat of the Maharaja of Jaipur, the head of the Kachwaha Rajput clan. The Chandra Mahal palace now houses a museum but the greatest part of it is still a royal residence.</history>
+        <coordinates
+            >26.9255&#176; N, 75.8236&#176; E</coordinates>
+        <languages_spoken
+            >Hindi, Rajasthani</languages_spoken>
+        <description>City Palace, Jaipur, which includes the Chandra Mahal and Mubarak Mahal palaces and other buildings, is a palace complex in Jaipur, the capital of the Rajasthan state, India. It was the seat of the Maharaja of Jaipur, the head of the Kachwaha Rajput clan. The Chandra Mahal palace now houses a museum but the greatest part of it is still a royal residence. The palace complex, located northeast of the centre of the grid-patterned Jaipur city, incorporates an impressive and vast array of courtyards, gardens and buildings. The palace was built between 1729 and 1732, initially by Sawai Jai Singh II, the ruler of Amber. He planned and built the outer walls, and later additions were made by successive rulers continuing up to the 20th century. The credit for the urban layout of the city and its structures is attributed to two architects namely, Vidyadhar Bhattacharya, the chief architect in the royal court and Sir Samuel Swinton Jacob, apart from the Sawai himself who was a keen architectural enthusiast. The architects achieved a fusion of the Shilpa Shastra of Indian architecture with Rajput, Mughal and European styles of architecture.</description>
+        <reviews>Soon.</reviews>
+        <famous_food>N/A</famous_food>
+        <state>Rajasthan</state>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Deeg_palace -->
+
+    <owl:Thing rdf:about="#Deeg_palace">
+        <reviews>Coming soon</reviews>
+        <coordinates
+            >Lat 27&#176;25&#39; , 77&#176;15&#39; Long</coordinates>
+        <languages_spoken
+            >Hiindi , Rajasthani</languages_spoken>
+        <photos
+            >https://upload.wikimedia.org/wikipedia/commons/d/d1/Deeg_Palace.jpg</photos>
+        <Alias>None</Alias>
+        <state>Rajasthan</state>
+        <pincode>321203</pincode>
+        <famous_food>local Cuisine</famous_food>
+        <description
+            >Deeg Palace is a palace 32 km from Bharatpur in Rajasthan, India built in 1772 as a luxurious summer resort for the rulers of Bharatpur State. The palace was in active use till the early 1970s.
+
+Deeg was the capital of the Jat kings before they shifted to Bharatpur. Badan Singh, who came to the throne in 1721, built a palace here but due to its strategic location and proximity to Agra, Deeg had to face repeated attacks by invaders. It was then that his son, prince Suraj Mal, began the construction of a fortress around the palace around 1730. The fort had massive walls and a deep moat to keep away the raiders."</description>
+        <city>Deeg</city>
+        <best_time_to_visit>Anytiime</best_time_to_visit>
+        <history
+            >Deeg was the capital of the Jat kings before they shifted to Bharatpur. Badan Singh, who came to the throne in 1721, built a palace.his son, prince Suraj Mal, began the construction of a fortress around the palace around 1730. The fort had massive walls and a deep moat to keep away the raiders</history>
+        <District>Bharatpur</District>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Desert_National_Park -->
+
+    <owl:Thing rdf:about="#Desert_National_Park">
+        <history
+            >This is one of the largest national parks, covering an area of 3162 km&#178;,</history>
+        <Alias
+            >Desert Nation Park</Alias>
+        <pincode>345001</pincode>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <reviews>Soon</reviews>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/c/cd/India_relief_location_map.jpg</photos>
+        <famous_food>N/A</famous_food>
+        <languages_spoken
+            >Rajasthani , hindi</languages_spoken>
+        <state>Rajasthan</state>
+        <description>Desert National Park, Rajasthan, India, is situated in the west Indian state of Rajasthan near the town of Jaisalmer. This is one of the largest national parks, covering an area of 3162 km². The Desert National Park is an excellent example of the ecosystem of the Thar Desert. Sand dunes form around 20% of the Park. The major landform consists of craggy rocks and compact salt lake bottoms, intermedial areas and fixed dunes.</description>
+        <city>Jaisalmer</city>
+        <District>jaisalmer</District>
+        <coordinates
+            >27&#176;2&#8242;22&#8243;N 70&#176;53&#8242;2&#8243;E</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Dilwara_Jain_Temples__ -->
+
+    <owl:Thing rdf:about="#Dilwara_Jain_Temples__">
+        <history
+            >These Jain temples were built by Vastupal-Tejpal, a Jain laymen between the 11th and 13th centuries AD and are world famous for their stunning use of marble</history>
+        <pincode>307501</pincode>
+        <city>Mount Abu</city>
+        <languages_spoken
+            >Hindi, English (local Accent)</languages_spoken>
+        <state>Rajasthan</state>
+        <famous_food
+            >Local Food of Rajasthan</famous_food>
+        <coordinates
+            >24.6093&#176; N, 72.7231&#176; E</coordinates>
+        <description
+            >The Dilwara temples of India are located about 2½ kilometres from Mount Abu, Rajasthan's only hill station. These Jain temples were built by Vastupal-Tejpal, a Jain laymen between the 11th and 13th centuries AD and are world famous for their stunning use of marble. The five legendary marble temples of Dilwara are a sacred pilgrimage place of the Jains. Some consider them to be one of the most beautiful Jain pilgrimage sites in the world. The marble temples have an opulent entranceway, the simplicity in architecture reflecting Jain values like honesty and frugality. The temples are in the midst of a range of forested hills. A high wall shrouds the temple complex.</description>
+        <reviews
+            >To be reviewed soon</reviews>
+        <best_time_to_visit
+            >Summers , Early Winters</best_time_to_visit>
+        <Alias>none</Alias>
+        <photos>Coming Soon</photos>
+        <District>Mount Abu</District>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Eklingji -->
+
+    <owl:Thing rdf:about="#Eklingji">
+        <languages_spoken
+            >Rajasthani, Hindi, English.</languages_spoken>
+        <Alias>None</Alias>
+        <famous_food>N/A</famous_food>
+        <state>Rajasthan</state>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <description>Eklingji is a Hindu temple complex in Udaipur District of Rajasthan in western India. Eklingji is believed to be the ruling deity of Mewar Princely State and the Ruler Maharana rules as his Dewan.</description>
+        <city>Udaipur</city>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/2/28/Meera_temple_Eklingji.jpg</photos>
+        <reviews>Soon</reviews>
+        <District>Udaipur</District>
+        <coordinates>N/A</coordinates>
+        <history
+            >Eklingji is believed to be the ruling deity of Mewar Princely State and the Ruler Maharana rules as his Dewan.
+Begun in 971, the temple complex was built by the Guhila (later called Sesodia) dynasty of Mewar, in honor of their presiding deity Eklingji, a form of Lord Shiva.</history>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Elefantastic -->
+
+    <owl:Thing rdf:about="#Elefantastic">
+        <description></description>
+        <District>Amer</District>
+        <history>N/A</history>
+        <Alias>None</Alias>
+        <reviews
+            >Soon to be uploaded</reviews>
+        <city>Jaipur</city>
+        <famous_food
+            >1135 AD
+Padao
+Cafe Amber</famous_food>
+        <best_time_to_visit
+            >summers 
+all days of week 10:30-6:00</best_time_to_visit>
+        <photos>http://www.jauntri.com/uploaded/attractions/main/20130714075755-Elefantastic2.jpg</photos>
+        <state>Rajasthan</state>
+        <languages_spoken>Hindi , English</languages_spoken>
+        <pincode>302028</pincode>
+        <coordinates
+            >Latitude 26.985006, Longitude 75.875656</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Gadsisar_Lake -->
+
+    <owl:Thing rdf:about="#Gadsisar_Lake">
+        <Alias>None</Alias>
+        <reviews
+            >To be updated soon</reviews>
+        <District>jaisalmer</District>
+        <history
+            >Gadsisar Lake In Jaisalmer is an artificial lake built by Raja Rawal Jaisal. Gadsisar lake is sorrounded by artistically carved Chattris, Temples, Shrines.</history>
+        <state>Rajasthan</state>
+        <coordinates>Complex</coordinates>
+        <description>Gadsisar Lake is one of the major tourist attractions of Jaisalmer. Just leave the madding crowd behind and venture towards the outskirts and you will find yourself next to the famous Gadsisar Lake. Contrary to the popular belief, it is not an oasis but a water conservation tank made around 1400 A.D. by the then maharaja of Jaisalmer, Maharwal Gadsi Singh. Can you believe this structure just outside the city walls once acted as a reservoir that controlled the entire supply of water to the arid city</description>
+        <city>Jaisalmer</city>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <photos
+            >http://www.jaisalmer.org.uk/gifs/gadsisar-lake-jaisalmer.jpg</photos>
+        <languages_spoken
+            >rajasthani, Hindi, English(local)</languages_spoken>
+        <pincode>345001</pincode>
+        <famous_food>local</famous_food>
+        <coordinates>complex</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Govind_Dev_Ji_Temple -->
+
+    <owl:Thing rdf:about="#Govind_Dev_Ji_Temple">
+        <District>Hathod</District>
+        <history
+            >The image of the deity (murti) was brought from Vrindavan here by Raja Sawai Jai Singh II, the founder of Jaipur. According to popular legend, Lord Krishna&#39;s image in the temple looks exactly like Krishna&#39;s form during his incarnation on Earth.</history>
+        <famous_food
+            >nothing specific</famous_food>
+        <Alias>none</Alias>
+        <state>Rajasthan</state>
+        <photos>https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Govind_dev_ji.jpg/220px-Govind_dev_ji.jpg</photos>
+        <languages_spoken>Hindi</languages_spoken>
+        <coordinates>complex</coordinates>
+        <best_time_to_visit
+            >All days of week 5 Am to 9 Pm</best_time_to_visit>
+        <pincode>302012</pincode>
+	<description>The Hindu temple Govind Dev Ji is situated in Jaipur in Rajasthan state of India. It is located in the City Palace complex. The temple is dedicated to Govind Dev Ji (Lord Krishna).This temple is among the 7 temples of Thakur of Vrindavan including Sri Radhavallabh ji, Shri Bankey Bihari Ji, Shri Govind Dev Ji and four others. The image of the deity (murti) was brought from Vrindavan here by Raja Sawai Jai Singh II, the founder of Jaipur. According to popular legend, Lord Krishna's image in the temple looks exactly like Krishna's form during his incarnation on Earth.</description>
+        <reviews>Soon</reviews>
+        <city>Jaipur</city>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Great_buddha_Statue -->
+
+    <owl:Thing rdf:about="#Great_buddha_Statue">
+        <coordinates
+            >24&#176;41&#8242;0&#8243;N 85&#176;2&#8242;0&#8243;E</coordinates>
+        <description>Updating soon</description>
+        <District>Bodh gaya</District>
+        <history
+            >It took seven years to complete with the help of 12,000 masons. It is a mix of sandstone blocks and red granite.[3] It is possibly the largest built in India and was consecrated on 18 November 1989 by the 14th Dalai Lama.The foundation stone for the statue was placed in 1982</history>
+        <city>Bodh Gaya</city>
+        <famous_food>N/A</famous_food>
+        <languages_spoken
+            >Bihari, Hindi , English</languages_spoken>
+        <Alias>None</Alias>
+        <photos>soon</photos>
+        <state>Bihar</state>
+        <reviews>soon</reviews>
+        <best_time_to_visit>All Days</best_time_to_visit>
+        <pincode>824231</pincode>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Guru_Shikhar -->
+
+    <owl:Thing rdf:about="#Guru_Shikhar">
+        <languages_spoken
+            >Rajasthani, Hindi, English.</languages_spoken>
+        <city>Mount Abu</city>
+        <pincode>N/A</pincode>
+        <best_time_to_visit>Summers</best_time_to_visit>
+        <description>updating soon</description>
+        <history
+            >is the highest point of the Aravalli Range. It rises to an elevation of 1,722 meters (5,676 feet)</history>
+        <famous_food>N/A</famous_food>
+        <District>Mount Abu</District>
+        <reviews>Uploading soon</reviews>
+        <Alias>None</Alias>
+        <photos>Soon</photos>
+        <coordinates
+            >24.6653&#176; N, 72.7819&#176; E</coordinates>
+        <state>Rajasthan.</state>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Haldi_Ghati -->
+
+    <owl:Thing rdf:about="#Haldi_Ghati">
+        <pincode>313322</pincode>
+        <description>Soon</description>
+        <city>N/A</city>
+        <reviews>Soon</reviews>
+        <photos>Soon</photos>
+        <famous_food>N/A</famous_food>
+        <history
+            >This narrow turmeric coloured mountainous region which played a stellar role in defending the honour of Mewar dynasty, is known as Haldighati.The Yellow rocks are too hard.</history>
+        <Alias>None</Alias>
+        <coordinates
+            >24&#176;53&#39;45&quot;N 73&#176;42&#39;20&quot;E.</coordinates>
+        <District>N/A</District>
+        <best_time_to_visit>Anytime , Day</best_time_to_visit>
+        <languages_spoken
+            >Hindi, English , Rajasthani</languages_spoken>
+        <state>Rajashan</state>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Hanuman_Mandir -->
+
+    <owl:Thing rdf:about="#Hanuman_Mandir">
+        <coordinates>complex</coordinates>
+        <reviews>Soon</reviews>
+        <city>Patna</city>
+        <history
+            >Mahavir Mandir, Patna is one of the leading Hanuman temples in the country. Daily thousands of devotees throng the temple and get solace from the worship of Hanumanji. It is a &#8216;manokamana&#8217; mandir where devotees&#8217; every wish is fulfilled and this is the reason for ever-increasing number of devotees in the temple.</history>
+        <state>Bihar</state>
+        <District>Patna</District>
+        <photos>soon</photos>
+        <languages_spoken
+            >Hindi, biihari , Engish(local accent)</languages_spoken>
+        <description>Soon</description>
+        <pincode>800001</pincode>
+        <Alias>Mahavir Mandir</Alias>
+        <best_time_to_visit
+            >All around the year</best_time_to_visit>
+        <famous_food>Local Cuisine</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Hawa_Mahal -->
+
+    <owl:Thing rdf:about="#Hawa_Mahal">
+        <history
+            >The structure was built in 1799 by Maharaja Sawai Pratap Singh designed by Lal Chand Ustad in the form of the crown of Krishna, the Hindu god. Its unique five-storey exterior is akin to the honeycomb of a beehive with its 953 small windows called jharokhas decorated with intricate latticework.</history>
+        <reviews>Soon.</reviews>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <Alias
+            >&quot;Palace of Winds&quot;
+&quot;Palace of the Breeze&quot;</Alias>
+        <description>Soon</description>
+        <coordinates
+            >Coordinates: 26&#176;55&#8242;26&#8243;N 75&#176;49&#8242;36&#8243;E</coordinates>
+        <state>Rajasthan</state>
+        <District>Jaipur</District>
+        <pincode>302002</pincode>
+        <famous_food>N/A</famous_food>
+        <city>jaipur</city>
+        <languages_spoken
+            >Hindi, Rajasthani,English</languages_spoken>
+        <photos>Soon</photos>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Indosan_Nippon_Japanese_Temple -->
+
+    <owl:Thing rdf:about="#Indosan_Nippon_Japanese_Temple">
+        <coordinates>Complex</coordinates>
+        <history
+            >Very simple but elegant decoration . Typical of the minimalist style of the Japanese. Extremely peaceful &amp; beautiful. One could light the incense sticks kept there . That was very nice . Excellent atmosphere for meditation</history>
+        <city>Bodh Gaya</city>
+        <famous_food>N/A</famous_food>
+        <languages_spoken
+            >bihari , english</languages_spoken>
+        <Alias>None</Alias>
+        <District>Bodh Gaya</District>
+        <reviews
+            >To be updated soon</reviews>
+        <photos
+            >To be updated soon</photos>
+        <description
+            >To be updated soon</description>
+        <pincode>824231</pincode>
+        <state>bihar</state>
+        <best_time_to_visit>All times</best_time_to_visit>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Jagmandir_Palace -->
+
+    <owl:Thing rdf:about="#Jagmandir_Palace">
+        <pincode>313001</pincode>
+        <famous_food
+            >Nothing specific</famous_food>
+        <languages_spoken
+            >Rajasthani, Hindi</languages_spoken>
+        <photos>Soon</photos>
+        <District>Udaipur</District>
+        <description>soon</description>
+        <Alias
+            >Lake Garden Palace</Alias>
+        <coordinates
+            >24.5672&#176; N, 73.6781&#176; E</coordinates>
+        <reviews>Soon</reviews>
+        <history
+            >Its construction is credited to three Maharanas of the Sisodia Rajputs of Mewar kingdom. The construction of the palace was started in 1551 by Maharana Amar Singh, continued by Maharana Karan Singh (1620&#8211;1628) and finally completed by Maharana Jagat Singh I (1628&#8211;1652)</history>
+        <city>Udaipur</city>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <state>Rajasthan</state>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Jain_Temple_(Ranakpur) -->
+
+    <owl:Thing rdf:about="#Jain_Temple_(Ranakpur)">
+        <history
+            >Inspired by a dream of a celestial vehicle, Dhanna Shah, from Ghanerao a Porwal, commenced its construction, under the patronage of Rana Kumbha, then ruler of Mewar.</history>
+        <photos
+            >To be uploaded soon</photos>
+        <description>Coming soon</description>
+        <Alias>None</Alias>
+        <city>Rajasthan</city>
+        <famous_food>Local Food</famous_food>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <reviews
+            >To be Reveiewd soon</reviews>
+        <District>Pali</District>
+        <pincode>306702</pincode>
+        <languages_spoken
+            >Hindi , Englis(Local Accent)</languages_spoken>
+        <state>Rajasthan</state>
+        <coordinates>Complex</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Jaisalmer_Fort -->
+
+    <owl:Thing rdf:about="#Jaisalmer_Fort">
+        <reviews>Uploading Soon</reviews>
+        <photos
+            >https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/300px-Jaisalmer_forteresse.jpg</photos>
+        <description>Jaisalmer Fort is one of the largest fortifications in the world. It is situated in the city of Jaisalmer, in the Indian state of Rajasthan. It is a World Heritage Site. It was built in 1156 AD by the Rajput ruler Rawal Jaisal, from whom it derives its name. (Rawal Jaisal's son was Shalivahan II; Manj and Bhati Rajputs are descended from him.) The fort stands amidst the sandy expanse of the great Thar Desert, on Trikuta Hill, and has been the scene of many battles. Its massive yellow sandstone walls are a tawny lion colour during the day, fading to honey-gold as the sun sets, thereby camouflaging the fort in the yellow desert. For this reason, it is also known as the Sonar Quila or Golden Fort. The fort is located in the very heart of the city, and is one of the most notable monuments in the locality.</description>
+        <state>Rajasthan</state>
+        <history
+            >It is a World Heritage Site. It was built in 1156 AD by the Rajput ruler Rawal Jaisal, from whom it derives its name.</history>
+        <pincode>345001</pincode>
+        <city>Jaisalmer</city>
+        <coordinates
+            >26.9127&#176; N, 70.9126&#176; E</coordinates>
+        <languages_spoken
+            >Rajasthani, Hindi, English.</languages_spoken>
+        <Alias>None.</Alias>
+        <District>Jaisalmer</District>
+        <famous_food>N/A</famous_food>
+        <best_time_to_visit>Anytime.</best_time_to_visit>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Jantar_Mantar_Jaipur -->
+
+    <owl:Thing rdf:about="#Jantar_Mantar_Jaipur">
+        <reviews
+            >To be uploaded soon</reviews>
+        <coordinates
+            >26&#176;55&#8242;29&#8243;N 75&#176;49&#8242;28&#8243;E</coordinates>
+        <city>Jaipur</city>
+        <description
+            >To be brought soon</description>
+        <District>Jaipur</District>
+        <famous_food>Local cuisine</famous_food>
+        <photos
+            >To be uploaded Soon</photos>
+        <Alias>none</Alias>
+        <state>Rajasthan</state>
+        <history
+            >Rajasthan is a collection of nineteen architectural astronomical instruments, built by the Rajput king Sawai Jai Singh, and completed in 1738 CE.</history>
+        <languages_spoken>Hindi</languages_spoken>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <pincode>302002</pincode>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Jodhpur_Flying_Fox -->
+
+    <owl:Thing rdf:about="#Jodhpur_Flying_Fox">
+        <famous_food>N/A</famous_food>
+        <Alias>None</Alias>
+        <photos
+            >To be uploaded soon</photos>
+        <history
+            >Flying Fox is the best zip line adventure tour company in India, provides a thrilling adventure experience in Neemrana, Jodhpur, Rishikesh, etc.</history>
+        <District>Jodhpur</District>
+        <state>Jodhpur</state>
+        <languages_spoken>Hindi, English</languages_spoken>
+        <reviews>Soon</reviews>
+        <description>Soon</description>
+        <pincode>342001</pincode>
+        <best_time_to_visit
+            >Day , All around year</best_time_to_visit>
+        <city>Jodhpur</city>
+        <coordinates>complex</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Junagarh_Fort -->
+
+    <owl:Thing rdf:about="#Junagarh_Fort">
+        <pincode>334001</pincode>
+        <coordinates
+            >28.0200&#176; N, 73.3200&#176; E</coordinates>
+        <photos
+            >https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bikaner_fort_view_08.jpg/320px-Bikaner_fort_view_08.jpg</photos>
+        <languages_spoken>Hindi, English</languages_spoken>
+        <reviews
+            >to be brought to you soon</reviews>
+        <Alias>none</Alias>
+        <city>Bikaner</city>
+        <District>Bikaner</District>
+        <famous_food
+            >lot of special food</famous_food>
+        <history
+            >The fort was originally called Chintamani and was renamed Junagarh or &quot;Old Fort&quot; in the early 20th century when the ruling family moved to Lalgarh Palace outside the fort limits.</history>
+        <state>Rajasthan</state>
+        <description>Junagarh Fort  is a fort in the city of Bikaner, Rajasthan, India. The fort was originally called Chintamani and was renamed Junagarh or "Old Fort" in the early 20th century when the ruling family moved to Lalgarh Palace outside the fort limits. It is one of the few major forts in Rajasthan which is not built on a hilltop. The modern city of Bikaner has developed around the fort.</description>
+        <best_time_to_visit>Anytime in day</best_time_to_visit>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Kumbhalgarh_Fort -->
+
+    <owl:Thing rdf:about="#Kumbhalgarh_Fort">
+        <state>Rajasthan</state>
+        <best_time_to_visit>Anytime in Day</best_time_to_visit>
+        <famous_food>Local cuisine</famous_food>
+        <Alias>none</Alias>
+        <District>Rajsamand</District>
+        <pincode>313334</pincode>
+        <description
+            >to be updated soon</description>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Walls_of_Kumbhalgarh.jpg/250px-Walls_of_Kumbhalgarh.jpg</photos>
+        <city>Rajasamand</city>
+        <history
+            >It is a World Heritage Site included in Hill Forts of Rajasthan. Built during the course of the 15th century by Rana Kumbha.</history>
+        <languages_spoken>Hindi</languages_spoken>
+        <reviews>Coming soon</reviews>
+        <coordinates
+            >5.1475&#176; N, 73.5831&#176; E</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Lake_Fatehsagar_ -->
+
+    <owl:Thing rdf:about="#Lake_Fatehsagar_">
+        <pincode>N/A</pincode>
+        <famous_food>N/A</famous_food>
+        <state>Rajasthani</state>
+        <reviews
+            >Uploading in a while</reviews>
+        <Alias>none</Alias>
+        <description>Kumbhalgarh Fort is a Mewar fortress on the westerly range of Aravalli Hills, in the Rajsamand District of Rajasthan state in western India. It is a World Heritage Site included in Hill Forts of Rajasthan. Built during the course of the 15th century by Rana Kumbha and enlarged through the 19th century, Kumbhalgarh is also the birthplace of Maharana Pratap, the great king and warrior of Mewar. Occupied until the late 19th century, the fort is now open to the public and is spectacularly lit for a few minutes each evening. Kumbalgarh is situated 82 km northwest of Udaipur by road. It is the most important fort in Mewar after Chittaurgarh.</description>
+        <District>Udaipur</District>
+        <languages_spoken
+            >Rajasthani, Hindi</languages_spoken>
+        <history
+            >It is an artificial lake named after Maharana Fateh Singh of Udaipur and Mewar ,constructed to the north-west of Udaipur, located to the north of Lake Pichola in the 1680s..</history>
+        <city>Udaipur</city>
+        <coordinates
+            >24.6000&#176; N, 73.6700&#176; E</coordinates>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Walls_of_Kumbhalgarh.jpg/250px-Walls_of_Kumbhalgarh.jpg</photos>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Lake_Pichola -->
+
+    <owl:Thing rdf:about="#Lake_Pichola">
+        <pincode>313001</pincode>
+        <languages_spoken>Hindi</languages_spoken>
+        <city>Udaipur</city>
+        <description>Soon</description>
+        <history
+            >artificial fresh water lake created in the year 1362 AD</history>
+        <District>Udaipur</District>
+        <reviews>coming soon</reviews>
+        <photos>Soon</photos>
+        <state>Rajasthan</state>
+        <Alias>None</Alias>
+        <famous_food>N/A</famous_food>
+        <coordinates
+            >24.5720&#176; N, 73.6790&#176; E</coordinates>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Lohagarh_Fort -->
+
+    <owl:Thing rdf:about="#Lohagarh_Fort">
+        <pincode>313605</pincode>
+        <reviews
+            >To be uploaded Soon</reviews>
+        <coordinates
+            >18.7089&#176; N, 73.4767&#176; E</coordinates>
+        <District>Bharatpur</District>
+        <famous_food
+            >Nothing specific</famous_food>
+        <Alias>Iron Fort</Alias>
+        <history
+            >It was constructed by Bharatpur Jat rulers. Maharaja Suraj Mal used all his power and wealth to a good cause, and built numerous forts and palaces across his kingdom, one of them being the Lohagarh Fort (Iron fort), which was one of the strongest ever built in Indian history.</history>
+        <description
+            >Lohagarh Fort (Iron fort) is situated at Bharatpur in Rajasthan, India. It was constructed by Bharatpur Jat rulers. Maharaja Suraj Mal used all his power and wealth to a good cause, and built numerous forts and palaces across his kingdom, one of them being the Lohagarh Fort (Iron fort), which was one of the strongest ever built in Indian history. The inaccessible Lohagarh fort could withstand repeated attacks of British forces led by Lord Lake in 1805 when they laid siege for over six weeks. Having lost over 3000 soldiers, the British forceswon . Of the two gates in the fort, one in the north is known as Ashtdhaatu (eight metalled) gate while the one facing the south is called Chowburja (four-pillared) gate.
+
+</description>
+        <city>Bharatpur</city>
+        <languages_spoken
+            >Rajasthani , Hindi , English</languages_spoken>
+        <photos
+            >http://www.indiantravels.com/admin/uploads/Places/634931786855079497_LohagarhFort_11135.jpg</photos>
+        <best_time_to_visit>Anytiime</best_time_to_visit>
+        <state>Rajasthan</state>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Mahabodhi_Temple -->
+
+    <owl:Thing rdf:about="#Mahabodhi_Temple">
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <state>Bihar</state>
+        <description>Soon</description>
+        <languages_spoken
+            >Bihari , hindi , English(local accent)</languages_spoken>
+        <reviews>Updating soon</reviews>
+        <history
+            >Buddhist temple in Bodh Gaya, marking the location where Siddhartha Gautama, the Buddha, is said to have attained enlightenment.</history>
+        <pincode>824231</pincode>
+        <Alias
+            >Great Awakening Vihar</Alias>
+        <photos>Soon</photos>
+        <city>Bodh Gaya</city>
+        <coordinates
+            >24.696004&#176;N 84.991358&#176;E</coordinates>
+        <District>Bodh Gaya</District>
+        <famous_food>N/A</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Mandore_Garden -->
+
+    <owl:Thing rdf:about="#Mandore_Garden">
+        <coordinates>Complex</coordinates>
+        <state>Rajasthan</state>
+        <history
+            >&#39;Mandore gardens&#39;, with its charming collection of temples and memorials, and its high rock terraces, is another major attraction. The gardens house the Chhatris (cenotaphs) of many rulers of Jodhpur state.</history>
+        <languages_spoken
+            >Hindi, Rajasthani</languages_spoken>
+        <photos>soon uploading</photos>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <reviews>Soon</reviews>
+        <city>Mandore</city>
+        <famous_food>N/A</famous_food>
+        <Alias>None</Alias>
+        <District>Mandore</District>
+        <description>Soon Uploading</description>
+        <pincode>342007</pincode>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Mehrangarh_Fort -->
+
+    <owl:Thing rdf:about="#Mehrangarh_Fort">
+        <District>Jodhpur</District>
+        <Alias>None</Alias>
+        <languages_spoken
+            >Hindi , English (Local Accent)</languages_spoken>
+        <photos>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mehrangarh_Fort.jpg/300px-Mehrangarh_Fort.jpg</photos>
+        <famous_food
+            >Kim Bakery 15 AD6.5 km
+Janta Sweet Home5.4 km
+Real Taste Restaurant6.9 km</famous_food>
+        <pincode>342006</pincode>
+        <state>Rajasthan</state>
+        <city>Jodhpur</city>
+        <description>Mehrangarh Fort , located in Jodhpur, Rajasthan, is one of the largest forts in India. Built around 1460 by Rao Jodha, the fort is situated 120 metres (400 ft) above the city and is enclosed by imposing thick walls. Inside its boundaries there are several palaces known for their intricate carvings and expansive courtyards. A winding road leads to and from the city below. The imprints of cannonball hits by attacking armies of Jaipur can still be seen on the second gate. To the left of the fort is the chhatri of Kirat Singh Soda, a soldier who fell on the spot defending the Mehrangarh fort.</description>
+        <history
+            >Built around 1460 by Rao Jodha, the fort is situated 120 metres (400 ft) above the city and is enclosed by imposing thick walls.</history>
+        <coordinates
+            >26.2978&#176; N, 73.0184&#176; E</coordinates>
+        <reviews
+            >To be reviwed soon</reviews>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Mount_Abu_Wildlife_Sanctuary -->
+
+    <owl:Thing rdf:about="#Mount_Abu_Wildlife_Sanctuary">
+        <state>Mount Abu</state>
+        <famous_food>N/A</famous_food>
+        <coordinates
+            >24&#176;33&#8242;0&#8243;N 72&#176;38&#8242;0&#8243;E</coordinates>
+        <District>Mount Abu</District>
+        <languages_spoken>Hindi, English</languages_spoken>
+        <reviews>Soon</reviews>
+        <photos>None</photos>
+        <best_time_to_visit>Summmers</best_time_to_visit>
+        <history
+            >located in one of the oldest mountain ranges of India, the Aravalli range. It was declared a wildlife sanctuary in 1980.</history>
+        <Alias>None</Alias>
+        <city>Mount Abu</city>
+        <description>Uploading Soon</description>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Nalanda -->
+
+    <owl:Thing rdf:about="#Nalanda">
+        <state>Bihar</state>
+        <history
+            >acclaimed Mahavihara, a large Buddhist monastery in the ancient kingdom of Magadha (modern-day Bihar) in India. The site is located about 95 kilometres southeast of Patna near the town of Bihar Sharif, and was a centre of learning from the fifth century CE to c.&#8201;1200 CE</history>
+        <District>Nalanda</District>
+        <languages_spoken
+            >Hindi, Bihari,English(local accent)</languages_spoken>
+        <pincode>803101</pincode>
+        <coordinates
+            >25&#176;08&#8242;12&#8243;N 85&#176;26&#8242;38&#8243;E</coordinates>
+        <Alias>Nalanda remins</Alias>
+        <photos>Soon</photos>
+        <best_time_to_visit
+            >Day all around year</best_time_to_visit>
+        <description>soon</description>
+        <city>Nalanda</city>
+        <famous_food>N/A</famous_food>
+        <reviews>Soon</reviews>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Pavapuri_Jain_Temple -->
+
+    <owl:Thing rdf:about="#Pavapuri_Jain_Temple">
+        <pincode>803115</pincode>
+        <city>Patna</city>
+        <photos>uploading Soon</photos>
+        <history
+            >During ancient times about 2600 year ago, Pawapuri was one of twin capital of Mall Mahajanpad which later became the part of Magadha Kingdom and was called &quot;Madyama Pawa&quot; or &quot;Apawapuri&quot;, Ajatshatru, who was one of the greatest disciples of Lord Mahavira was the King of Magadh during the lifetime of Mahavir.</history>
+        <Alias>none</Alias>
+        <languages_spoken
+            >Bihari , English, Hiindi</languages_spoken>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <District>Nalanda</District>
+        <state>Bihar</state>
+        <coordinates
+            >25&#176;05&#8242;30&#8243;N 85&#176;32&#8242;20&#8243;E</coordinates>
+        <description>Uploading Soon</description>
+        <reviews>Uploading soon</reviews>
+        <famous_food>N/A</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Pushkar_Camel_Fair_ -->
+
+    <owl:Thing rdf:about="#Pushkar_Camel_Fair_">
+        <famous_food>local Cuisine</famous_food>
+        <languages_spoken
+            >Hindi, Rajasthani</languages_spoken>
+        <best_time_to_visit
+            >In the 5 Days of the Festival</best_time_to_visit>
+        <history
+            >An annual five-day camel and livestock fair held in the town of Pushkar in the state of Rajasthan, India. It is one of the world&#39;s largest camel fairs. Apart from the buying and selling of livestock, it has become an important tourist attraction.</history>
+        <photos>Soon</photos>
+        <Alias>Pushkar ka Mela</Alias>
+        <reviews>Soon</reviews>
+        <state>Rajasthan</state>
+        <description>Updating Soon</description>
+        <coordinates>None</coordinates>
+        <District>Pushkar</District>
+        <pincode>305022</pincode>
+        <city>Pushkar</city>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Pushkar_Lake -->
+
+    <owl:Thing rdf:about="#Pushkar_Lake">
+        <reviews>Soon</reviews>
+        <description>Soon updating</description>
+        <history
+            >The Hindu scriptures describe as it as &quot;Tirtha-Raj&quot; &#8211; the king of pilgrimage sites related to a water-body and relate it to the mythology of the creator-god Brahma, whose most prominent temple stands in Pushkar. The Pushkar Lake finds mention on coins as early as the 4th century BC.</history>
+        <state>Rajasthan</state>
+        <District>Pushkar</District>
+        <Alias>None</Alias>
+        <languages_spoken
+            >Rajasthani, Hindi</languages_spoken>
+        <photos>Soon</photos>
+        <pincode>305022</pincode>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <famous_food>local Cuisine</famous_food>
+        <city>Pushkar</city>
+        <coordinates
+            >26&#176;29&#8242;14&#8243;N 74&#176;33&#8242;15&#8243;E</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Rajgir -->
+
+    <owl:Thing rdf:about="#Rajgir">
+        <history
+            >The name Rajgir came from R&#257;jag&#7771;iha &#39;house of the king&#39; or &quot;royal house&quot;, or the word rajgir might have its origin in its plain literal meaning, &quot;royal mountain&quot;. It was the ancient capital city of the Magadha kings until the 5th century BC when king Udayin (460-440 BC),son of Ajatshatru,moved the capital to Pataliputra. In those days, it was called Rajgrih, which translates as &#39;the home of Royalty&#39;</history>
+        <Alias>None</Alias>
+        <languages_spoken
+            >Bihari, Hindi , English (local accent)</languages_spoken>
+        <city>Patna</city>
+        <pincode>803116</pincode>
+        <state>Bihar</state>
+        <District>Nalanda</District>
+        <coordinates>25.03&#176;N 85.42&#176;E</coordinates>
+        <photos
+            >To be uploaded Soon</photos>
+        <reviews
+            >To be updated soon</reviews>
+        <famous_food>N/A</famous_food>
+        <description>Coming Soon</description>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Ranthambore_National_Park -->
+
+    <owl:Thing rdf:about="#Ranthambore_National_Park">
+        <photos>Soon</photos>
+        <reviews>Uploading soon</reviews>
+        <description
+            >Bringing to you soon</description>
+        <languages_spoken
+            >Hindi, Rajasthani</languages_spoken>
+        <city>Madhopur</city>
+        <history
+            >Ranthambhore was established as the Sawai Madhopur Game Sanctuary in 1955 by the Government of India and was declared one of the Project Tiger reserves in 1973. Ranthambore became a national park in 1980. In 1984, the adjacent forests were declared the Sawai Man Singh Sanctuary and Keladevi Sanctuary, and in 1991 the tiger reserve was enlarged to include the Sawai Man Singh and Keladevi sanctuaries.</history>
+        <Alias>Ranthambore</Alias>
+        <famous_food>N/A</famous_food>
+        <coordinates
+            >26&#176;01&#8242;02&#8243;N 76&#176;30&#8242;09&#8243;E</coordinates>
+        <District>Sawai Madhopur</District>
+        <state>Rajasthan</state>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <pincode>N/A</pincode>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Royal_Bhutan_Monastry -->
+
+    <owl:Thing rdf:about="#Royal_Bhutan_Monastry">
+        <state>Bihar</state>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <description>updating soon</description>
+        <Alias>None</Alias>
+        <District>Bodhgaya</District>
+        <famous_food>N/A</famous_food>
+        <languages_spoken
+            >Hindi, Bihari, English</languages_spoken>
+        <city>Bodhgaya</city>
+        <reviews>updating soon</reviews>
+        <pincode>824231</pincode>
+        <coordinates>Complex</coordinates>
+        <photos>updating soon</photos>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Sam_Sand_Dunes -->
+
+    <owl:Thing rdf:about="#Sam_Sand_Dunes">
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <reviews
+            >To be updated soon</reviews>
+        <Alias>None</Alias>
+        <photos
+            >To be updated soon</photos>
+        <famous_food>N/A</famous_food>
+        <District>Kanoi</District>
+        <state>Rajasthan</state>
+        <languages_spoken
+            >Hindi , English , Rajasthani</languages_spoken>
+        <pincode>345001</pincode>
+        <city>Kanoi</city>
+        <history>N/A</history>
+        <coordinates>Complex</coordinates>
+        <description
+            >To be uploaded soon</description>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Sanjay_Gandhi_Biological_park -->
+
+    <owl:Thing rdf:about="#Sanjay_Gandhi_Biological_park">
+        <history
+            >The park was opened to the public as a zoo in 1973. The park is Patna&#39;s most frequented picnic spot, with more than 36,000 visitors on New Year&#39;s Day alone in 2011.</history>
+        <city>Patna</city>
+        <description
+            >to be updated soon</description>
+        <pincode>800001</pincode>
+        <Alias
+            >Sanjay Gandhi Botanical and Zoological Garden or Patna Zoo
+Sanjay Gandhi Jaivik Udyan</Alias>
+        <languages_spoken
+            >Bihari,  Hindi , English</languages_spoken>
+        <reviews
+            >to be uploaded soon</reviews>
+        <District>patna</District>
+        <photos
+            >to be uploaded soon</photos>
+        <best_time_to_visit>All Year</best_time_to_visit>
+        <state>Bihar</state>
+        <coordinates
+            >25.5965&#176; N, 85.0993&#176; E</coordinates>
+        <famous_food>N/A</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Sheesh_Mahal -->
+
+    <owl:Thing rdf:about="#Sheesh_Mahal">
+        <state>Rajasthan</state>
+        <coordinates
+            >26.9859&#176; N, 75.8507&#176; E</coordinates>
+        <photos>Soon</photos>
+        <reviews>Soon</reviews>
+        <description>Soon</description>
+        <languages_spoken>Hindi</languages_spoken>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <history
+            >The reason behind why this hall was made by glass because in ancient days the queen was not allowed to sleep in open air but she loved to see the stars shining.</history>
+        <photos>soon</photos>
+        <pincode>302001</pincode>
+        <famous_food>N/A</famous_food>
+        <reviews>Coming Soon</reviews>
+        <Alias>Amer Fort</Alias>
+        <city>Jaipur</city>
+        <District>Amer</District>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Sher_Shah_Suri_Tomb -->
+
+    <owl:Thing rdf:about="#Sher_Shah_Suri_Tomb">
+        <history
+            >The tomb of Sher Shah Suri is in the Sasaram town of Bihar state, India. The tomb was built in memory of Emperor Sher Shah Suri, a Pathan from Bihar who defeated the Mughal Empire and founded the Suri Empire in northern India. He died in an accidental gunpowder explosion in the fort of Kalinjar on 10th day of Rabi&#39; al-awwal, A.H. 952 or 13 May 1545 AD</history>
+        <best_time_to_visit>anytime</best_time_to_visit>
+        <District>Sasaram</District>
+        <description
+            >To be uploaded Soon</description>
+        <reviews>later</reviews>
+        <state>Bihar</state>
+        <pincode>821115</pincode>
+        <Alias>None</Alias>
+        <city>Sasaram</city>
+        <famous_food>N/A</famous_food>
+        <photos>See later</photos>
+        <coordinates
+            >24.9481&#176;N 84.0092&#176;E</coordinates>
+        <languages_spoken
+            >Hindi, English , Urdu</languages_spoken>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Takht_Sri_patna_Sahb -->
+
+    <owl:Thing rdf:about="#Takht_Sri_patna_Sahb">
+        <Alias>Gurudwara</Alias>
+        <city>Patna</city>
+        <history
+            >t was here at Takhat Patna Sahib, that Guru Gobind Singh, the tenth Sikh Guru was born in 1666. He also spent his early years here before moving to Anandpur. Besides being the birthplace of Guru Gobind Singh, Patna was also honored by visits from Guru Nanak as well as Guru Tegh</history>
+        <languages_spoken
+            >Punjabi, Hindi , Bihari, English</languages_spoken>
+        <coordinates
+            >25&#176;36&#8242;28.77&#8243;N 85&#176;10&#8242;3.06&#8243;E</coordinates>
+        <famous_food>local Cuisine</famous_food>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <District>Patna</District>
+        <reviews>Updating soon</reviews>
+        <pincode>800001</pincode>
+        <description
+            >To be updated soon</description>
+        <state>Bihar</state>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Tanot_Mata_Temple -->
+
+    <owl:Thing rdf:about="#Tanot_Mata_Temple">
+        <Alias
+            >Shri Tanot mata Mandir</Alias>
+        <best_time_to_visit
+            >Day times mostly 
+not summers</best_time_to_visit>
+        <pincode>345022</pincode>
+        <city>Tanot</city>
+        <description>Coming Soon</description>
+        <reviews>Coming soon</reviews>
+        <languages_spoken
+            >Hindi,Raajasthani</languages_spoken>
+        <famous_food>Local Cuisines</famous_food>
+        <coordinates>Complex</coordinates>
+        <state>Rajasthan</state>
+        <history
+            >The village is close to the border with Pakistan, and is very close to the battle site of Longewala of the Indo-Pakistani War of 1971, indeed some credit the temple for the outcome of the battle.Tourists cannot go beyond this temple to see the Indo&#8211;Pak Border unless one gets the relevant documentation in advance from the District and Military Authorities</history>
+        <photos>Soon</photos>
+        <District>Tanot</District>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Taragarh_Fort -->
+
+    <owl:Thing rdf:about="#Taragarh_Fort">
+        <District>Bundi</District>
+        <state>Rajasthan</state>
+        <history
+            >. It was constructed in 1354 upon a steep hillside. There are three gateways to the fort, well known as Lakshmi Pol, Phuta Darwaza and Gagudi ki Phatak.The largest of its battlements is the 16th century bastion known as the Bhim Burj, on which was once mounted a particularly large cannon called Garbh Gunjam, or &#39;Thunder from the Womb&#39;.</history>
+        <famous_food>Local Cuisine</famous_food>
+        <pincode>305001</pincode>
+        <description
+            >Taragarh Fort or 'Star Fort' is the most impressive of structures of city of Bundi in Indian state of Rajasthan. A rather ramshackle fort, with its overgrown vegetation, is located around 39 km from Kota. It was constructed in 1354 upon a steep hillside. There are three gateways to the fort, well known as Lakshmi Pol, Phuta Darwaza and Gagudi ki Phatak. Most parts of these impressive gateways are now in ruins. During its heyday, Taragarh Fort was renowned for its tunnels crisscrossing the entire hillside. However, these tunnels are now inaccessible for want of proper maps. The largest of its battlements is the 16th century bastion known as the Bhim Burj, on which was once mounted a particularly large cannon called Garbh Gunjam, or 'Thunder from the Womb'.</description>
+        <photos
+            >https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Bundi_palace.jpg/300px-Bundi_palace.jpg</photos>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <Alias>Star Fort</Alias>
+        <city>Bundi</city>
+        <coordinates>Complex</coordinates>
+        <reviews
+            >To be updated soon</reviews>
+        <languages_spoken
+            >Rajasthani , Hndi , English(Local Accent)</languages_spoken>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Thai_Moonastry -->
+
+    <owl:Thing rdf:about="#Thai_Moonastry">
+        <state>Bihar</state>
+        <history
+            >Thai Monastery or Buddhist Temple at Bodh Gaya was built in 1956 by Thailand Monarch at request of Indian Prime Minister Jawaharlal Nehru.</history>
+        <famous_food>N/A</famous_food>
+        <description>Soon</description>
+        <coordinates>Complex</coordinates>
+        <city>Bodhgaya</city>
+        <pincode>824231</pincode>
+        <reviews>Updating soon</reviews>
+        <District>BodhGaya</District>
+        <best_time_to_visit
+            >All around the Year</best_time_to_visit>
+        <languages_spoken
+            >English , Hindi , Bihari</languages_spoken>
+        <Alias>None</Alias>
+        <photos>Soon</photos>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#Vijay_Stambha -->
+
+    <owl:Thing rdf:about="#Vijay_Stambha">
+        <photos>Soon.</photos>
+        <reviews>Soon</reviews>
+        <city>Chittorgarh</city>
+        <state>Rajasthan</state>
+        <Alias>Kirttistambha</Alias>
+        <famous_food>N/A</famous_food>
+        <description>Uploading Soon</description>
+        <history
+            >imposing victory monument located in Chittorgarh fort in Chittorgarh, Rajasthan, India. This tower is the pi&#232;ce de r&#233;sistance of Chittorgarh. It was constructed by Mewar king Rana Kumbha in 1448  to commemorate his victory over the combined armies of Malwa and Gujarat led by Mahmud Khilji.</history>
+        <District>Chittorgarh</District>
+        <pincode>312001</pincode>
+        <best_time_to_visit>Antytime, Day</best_time_to_visit>
+        <languages_spoken
+            >Rajasthani, English, Hindi.</languages_spoken>
+        <coordinates
+            >24.887870&#176;N 74.645157&#176;E</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#fateh_prakash_palace_ -->
+
+    <owl:Thing rdf:about="#fateh_prakash_palace_">
+        <coordinates>complex</coordinates>
+        <languages_spoken
+            >Hiindi, Rajasthani</languages_spoken>
+        <state>Rajasthan</state>
+        <famous_food>N/A</famous_food>
+        <reviews>Soon</reviews>
+        <history
+            >Fateh Prakash Palace, Udaipur located on the eastern shores of Lake Pichola would make you feel floated straight out of a fairytale</history>
+        <city>Udaipur</city>
+        <pincode>313001</pincode>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <photos>soon</photos>
+        <District>Udaipur</District>
+        <description>Soon</description>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#umaid_bhawan_palace -->
+
+    <owl:Thing rdf:about="#umaid_bhawan_palace">
+        <photos>Soon</photos>
+        <state>Rajasthan</state>
+        <history
+            >one of the world&#39;s largest private residences. A part of the palace is managed by Taj Hotels. Named after Maharaja Umaid Singh, grandfather of the present owner Gaj Singh of the palace, this edifice has 347 rooms and serves as the principal residence of the erstwhile Jodhpur royal family.</history>
+        <pincode>302016</pincode>
+        <description>soon</description>
+        <coordinates>N/A</coordinates>
+        <best_time_to_visit>Anytime</best_time_to_visit>
+        <languages_spoken
+            >English, Hindi, Rajasthani</languages_spoken>
+        <District>Jaipur</District>
+        <city>Jaipur</city>
+        <famous_food>local Cuisine</famous_food>
+        <Alias>none</Alias>
+        <reviews>soon</reviews>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+
