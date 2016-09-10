@@ -1,0 +1,703 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontologytajmahalnew "http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#" >
+    <!ENTITY Stellar_Children "http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#Stellar_Children&#39;" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:Stellar_Children="&Ontologytajmahalnew;Stellar_Children&#39;"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:Ontologytajmahalnew="http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#aliases -->
+
+    <owl:DatatypeProperty rdf:about="#aliases"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#best_time_to_visit -->
+
+    <owl:DatatypeProperty rdf:about="#best_time_to_visit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#city -->
+
+    <owl:DatatypeProperty rdf:about="#city"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#coordinates -->
+
+    <owl:DatatypeProperty rdf:about="#coordinates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#description -->
+
+    <owl:DatatypeProperty rdf:about="#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#famous_food -->
+
+    <owl:DatatypeProperty rdf:about="#famous_food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#history -->
+
+    <owl:DatatypeProperty rdf:about="#history"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#languages_spoken -->
+
+    <owl:DatatypeProperty rdf:about="#languages_spoken"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#photos -->
+
+    <owl:DatatypeProperty rdf:about="#photos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#pincode -->
+
+    <owl:DatatypeProperty rdf:about="#pincode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#reviews -->
+
+    <owl:DatatypeProperty rdf:about="#reviews"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#state -->
+
+    <owl:DatatypeProperty rdf:about="#state"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#Brahma_Sarovar -->
+
+    <owl:Thing rdf:about="#Brahma_Sarovar">
+        <description>COMING SOON</description>
+        <city>Thanesar</city>
+        <reviews>COMING SOON</reviews>
+        <pincode>136119</pincode>
+        <photos>COMING SOON</photos>
+        <history
+            >Brahma sarovar is believed to be the cradle of civilization.</history>
+        <aliases>N/A</aliases>
+        <state>HARYANA</state>
+        <best_time_to_visit
+            >Anytime of the year
+</best_time_to_visit>
+        <coordinates>29.96N,76.83E</coordinates>
+        <famous_food
+            >Red castel,Motimahal deluxe restaurants.</famous_food>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#Stellar_Children&#39;s_Museum -->
+
+    <owl:Thing rdf:about="#Stellar_Children&#39;s_Museum">
+        <photos>COMING SOON</photos>
+        <coordinates>28.07N,78.55E</coordinates>
+        <best_time_to_visit
+            >Anytime of the year</best_time_to_visit>
+        <city>Gurgaon</city>
+        <famous_food
+            >Diya,Dimsum Bros,Cafe Delhi Heights are some good restaurants near by. </famous_food>
+        <description>COMING SOON</description>
+        <aliases>N/A</aliases>
+        <history>N/A</history>
+        <state>HARYANA</state>
+        <reviews>COMING SOON</reviews>
+        <pincode>122016</pincode>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#ambience_mall -->
+
+    <owl:Thing rdf:about="#ambience_mall">
+        <coordinates>28.50*N,77.09*E</coordinates>
+        <reviews
+            >ambience mall reviews.txt</reviews>
+        <city>Gurgaon</city>
+        <photos>coming soon</photos>
+        <best_time_to_visit
+            >Anytime of the year</best_time_to_visit>
+        <famous_food
+            >Different restaurants with different cuisines</famous_food>
+        <languages_spoken
+            >English and Hindi(with local accent)</languages_spoken>
+        <pincode>122001</pincode>
+        <state>Haryana</state>
+        <history>N/A</history>
+        <aliases
+            >The Destination Mall</aliases>
+        <description
+            >Ambience mall description.txt</description>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#aravalli_biodiversity_park -->
+
+    <owl:Thing rdf:about="#aravalli_biodiversity_park">
+        <pincode rdf:datatype="&xsd;string">122002</pincode>
+        <coordinates rdf:datatype="&xsd;string">28.33N,77.8E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <famous_food rdf:datatype="&xsd;string"
+            >China club,Sanskriti,Vina Hyderabadi restaurant</famous_food>
+        <history rdf:datatype="&xsd;string"
+            >Converted to biodiversity park in 2004.</history>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <city rdf:datatype="&xsd;string">Gurgaon</city>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#banni_khera_farm -->
+
+    <owl:Thing rdf:about="#banni_khera_farm">
+        <photos>COMING SOON</photos>
+        <history
+            >Designed as per vastu shastra</history>
+        <famous_food
+            >Pure veg and vegan food available here only.</famous_food>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+        <city>Rohtek</city>
+        <state>HARYANA</state>
+        <aliases>N/A</aliases>
+        <description>COMING SOON</description>
+        <pincode>124007</pincode>
+        <reviews>COMING SOON</reviews>
+        <coordinates>N/A</coordinates>
+        <best_time_to_visit
+            >Anytime of the year</best_time_to_visit>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#chattbir_zoo -->
+
+    <owl:Thing rdf:about="#chattbir_zoo">
+        <pincode rdf:datatype="&xsd;string">140603</pincode>
+        <coordinates rdf:datatype="&xsd;string">30.69N,76.79E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year
+</best_time_to_visit>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <city rdf:datatype="&xsd;string">Chhat</city>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <aliases rdf:datatype="&xsd;string"
+            >Mahendra Chaudhary Zoological Park</aliases>
+        <history rdf:datatype="&xsd;string">Opened in 1977.</history>
+        <state rdf:datatype="&xsd;string">PUNJAB</state>
+        <famous_food rdf:datatype="&xsd;string"
+            >Zaranj,Nik bakers</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#cyber_hub -->
+
+    <owl:Thing rdf:about="#cyber_hub">
+        <pincode rdf:datatype="&xsd;string">122002</pincode>
+        <coordinates rdf:datatype="&xsd;string">28.47N,77.03E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <city rdf:datatype="&xsd;string">Gurgaon</city>
+        <state rdf:datatype="&xsd;string">Haryana</state>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >Hindi and English</languages_spoken>
+        <famous_food rdf:datatype="&xsd;string"
+            >Italiano,Starbucks,Made in Punjab,KFC near by</famous_food>
+        <history rdf:datatype="&xsd;string">N/A</history>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#gurudwara_nada_sahib -->
+
+    <owl:Thing rdf:about="#gurudwara_nada_sahib">
+        <coordinates rdf:datatype="&xsd;string">30.41N,76.52E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+        <city rdf:datatype="&xsd;string">Panchkula</city>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#heritage_transport_museum -->
+
+    <owl:Thing rdf:about="#heritage_transport_museum">
+        <pincode rdf:datatype="&xsd;string">122105</pincode>
+        <coordinates rdf:datatype="&xsd;string">28.15N,76.55E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <city rdf:datatype="&xsd;string">Bilaspur</city>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <history rdf:datatype="&xsd;string">N/A</history>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+        <famous_food rdf:datatype="&xsd;string"
+            >Peprika restaurant,Rajwada,Old Rao Dhabha are nearby</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#jyotisar -->
+
+    <owl:Thing rdf:about="#jyotisar">
+        <city rdf:datatype="&xsd;string">...</city>
+        <pincode rdf:datatype="&xsd;string">136119</pincode>
+        <coordinates rdf:datatype="&xsd;string">29.96N,76.74E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <aliases rdf:datatype="&xsd;string"
+            >Birthplace of Bhagvad gita</aliases>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <history rdf:datatype="&xsd;string"
+            >It is the birthplace of Bhagvad Gita.</history>
+        <famous_food rdf:datatype="&xsd;string"
+            >Neelkanth Tourist Restaurant,Golden Restaurant</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#kingdom_of_dreams -->
+
+    <owl:Thing rdf:about="#kingdom_of_dreams">
+        <pincode rdf:datatype="&xsd;string">122001</pincode>
+        <coordinates rdf:datatype="&xsd;string">28.46N,77.06E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <city rdf:datatype="&xsd;string">Gurgaon</city>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <history rdf:datatype="&xsd;string"
+            >Inaugrated on 29 January,2010</history>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+        <famous_food rdf:datatype="&xsd;string"
+            >Quick bites and Casual dining are available in the cultural gully.</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#kurukshetra_panorma_and_science_centre -->
+
+    <owl:Thing rdf:about="#kurukshetra_panorma_and_science_centre">
+        <pincode rdf:datatype="&xsd;string">136118</pincode>
+        <coordinates rdf:datatype="&xsd;string">29.96N,76.83E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <city rdf:datatype="&xsd;string">Kurukshetra</city>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+        <history rdf:datatype="&xsd;string">N/A</history>
+        <famous_food rdf:datatype="&xsd;string"
+            >Yuvraj&#39;s Citadel/Hotel Orbit</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#leisure_valley_park -->
+
+    <owl:Thing rdf:about="#leisure_valley_park">
+        <pincode rdf:datatype="&xsd;string">122009</pincode>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year
+</best_time_to_visit>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <city rdf:datatype="&xsd;string">Gurgaon</city>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+        <coordinates rdf:datatype="&xsd;string">N/A</coordinates>
+        <history rdf:datatype="&xsd;string">N/A</history>
+        <famous_food rdf:datatype="&xsd;string"
+            >Park Balluchi Restaurant,Bikanervala</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#mata_mansa_mandir -->
+
+    <owl:Thing rdf:about="#mata_mansa_mandir">
+        <famous_food
+            >Zaika,Anupam Sweets,McDonalds,Chawla&#39;s Chicken</famous_food>
+        <photos>COMING SOON</photos>
+        <city>Panchkula</city>
+        <state>HARYANA</state>
+        <reviews>COMING SOON</reviews>
+        <best_time_to_visit
+            >Anytime of the year</best_time_to_visit>
+        <aliases>N/A</aliases>
+        <pincode>134114</pincode>
+        <description>COMING SOON</description>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+        <coordinates>30.76N,76.82E</coordinates>
+        <history
+            >Built during 1811-1815</history>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#neverenuf_garden_railway -->
+
+    <owl:Thing rdf:about="#neverenuf_garden_railway">
+        <city>Para</city>
+        <aliases>N/A</aliases>
+        <history>N/A</history>
+        <state>HARYANA</state>
+        <best_time_to_visit
+            >Anytime of the year</best_time_to_visit>
+        <famous_food
+            >Makla,Peprika and Ichizen restaurants at a distance of 8-9 kms</famous_food>
+        <pincode>122105</pincode>
+        <coordinates>N/A</coordinates>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+        <photos>COMING SOON</photos>
+        <reviews>COMING SOON</reviews>
+        <description>COMING SOON</description>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#pinjore_gardens -->
+
+    <owl:Thing rdf:about="#pinjore_gardens">
+        <reviews>COMING SOON
+</reviews>
+        <aliases
+            >Yadavindra farms</aliases>
+        <photos>COMING SOON</photos>
+        <best_time_to_visit
+            >Anytime of the year</best_time_to_visit>
+        <city>Pinjore</city>
+        <coordinates>30.79N,76.91E</coordinates>
+        <famous_food
+            >Golden oriole,Oasis restaurant,Duggal bakery</famous_food>
+        <pincode>134102</pincode>
+        <history
+            >From ancient Aryan times,Ruins of Bhima devi temple and mughal gardens present</history>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+        <description>COMING SOON</description>
+        <state>HARYANA</state>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#pratapgarh_farms -->
+
+    <owl:Thing rdf:about="#pratapgarh_farms">
+        <pincode rdf:datatype="&xsd;string">125407</pincode>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <photos rdf:datatype="&xsd;string">COMING SOON </photos>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <famous_food rdf:datatype="&xsd;string"
+            >Good food available inside.</famous_food>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <city rdf:datatype="&xsd;string">Jhajjar</city>
+        <coordinates rdf:datatype="&xsd;string">N/A</coordinates>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+        <history rdf:datatype="&xsd;string">N/A</history>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#sai_ka_angan_temple -->
+
+    <owl:Thing rdf:about="#sai_ka_angan_temple">
+        <pincode rdf:datatype="&xsd;string">122003</pincode>
+        <coordinates rdf:datatype="&xsd;string">28.26N,77.5E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <history rdf:datatype="&xsd;string"
+            >Bhumi poojan held on 6th October,2000</history>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <city rdf:datatype="&xsd;string">Gurgaon</city>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <famous_food rdf:datatype="&xsd;string">N/A</famous_food>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#sarkaria_cactus_garden -->
+
+    <owl:Thing rdf:about="#sarkaria_cactus_garden">
+        <pincode rdf:datatype="&xsd;string">134102</pincode>
+        <coordinates rdf:datatype="&xsd;string">30.69N,76.85E</coordinates>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <history rdf:datatype="&xsd;string"
+            >Established in 1987</history>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Open anytime,Best time - September to March</best_time_to_visit>
+        <city rdf:datatype="&xsd;string">Panchkula</city>
+        <famous_food rdf:datatype="&xsd;string"
+            >Sagar Ratna Restaurant,Hops n Grains,the microbrewery</famous_food>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#sheetla_mata_mandir -->
+
+    <owl:Thing rdf:about="#sheetla_mata_mandir">
+        <coordinates>21.7N,79.7E</coordinates>
+        <pincode>122001</pincode>
+        <best_time_to_visit
+            >Anytime except July-August.</best_time_to_visit>
+        <description>COMING SOON</description>
+        <reviews>COMING SOON</reviews>
+        <state>HARYANA</state>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+        <aliases>N/A</aliases>
+        <famous_food
+            >Delhi Rasoi,Rinku ka Dhabha</famous_food>
+        <photos>COMING SOON</photos>
+        <city>Gurgaon</city>
+        <history
+            >The word Sheetla relates to smallpox.It is believed that she takes away the disease if worshipped properly.</history>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#sri_krishna_museum -->
+
+    <owl:Thing rdf:about="#sri_krishna_museum">
+        <reviews>COMING SOON</reviews>
+        <famous_food
+            >Hotel Orbit near by.</famous_food>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+        <aliases>N/A</aliases>
+        <best_time_to_visit
+            >Anytime of the year</best_time_to_visit>
+        <city>Kurukshetra</city>
+        <history
+            >Established in 1987, to tell the people the history of the region.</history>
+        <photos>COMING SOON</photos>
+        <state>HARYANA</state>
+        <pincode>136118</pincode>
+        <description>COMING SOON</description>
+        <coordinates>N/A</coordinates>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#sultanpur_national_park_ -->
+
+    <owl:Thing rdf:about="#sultanpur_national_park_">
+        <pincode rdf:datatype="&xsd;string">122506</pincode>
+        <coordinates rdf:datatype="&xsd;string">28.46N,76.88E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <famous_food rdf:datatype="&xsd;string"
+            >Bento restaurant, Saffron restaurant</famous_food>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <history rdf:datatype="&xsd;string"
+            >Established in 1972,upgraded to national park in 1989</history>
+        <city rdf:datatype="&xsd;string">Gurgaon</city>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <aliases rdf:datatype="&xsd;string"
+            >sulatnpur bird sanctuary</aliases>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#tau_devi_lal_biodiversity_park -->
+
+    <owl:Thing rdf:about="#tau_devi_lal_biodiversity_park">
+        <description>COMING SOON</description>
+        <history>N/A</history>
+        <famous_food>N/A</famous_food>
+        <aliases>N/A</aliases>
+        <coordinates>28.25N,77.5E</coordinates>
+        <pincode>122003</pincode>
+        <city>Gurgaon</city>
+        <reviews>COMING SOON</reviews>
+        <state>HARYANA</state>
+        <photos>COMING SOON</photos>
+        <languages_spoken
+            >English and Hindi</languages_spoken>
+        <best_time_to_visit
+            >Anytime of the year.
+</best_time_to_visit>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#tikli_bottom -->
+
+    <owl:Thing rdf:about="#tikli_bottom">
+        <pincode rdf:datatype="&xsd;string">122101</pincode>
+        <coordinates rdf:datatype="&xsd;string">28.29N,77.0E</coordinates>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <famous_food rdf:datatype="&xsd;string"
+            >Good food is available inside.</famous_food>
+        <city rdf:datatype="&xsd;string">Gurgaon</city>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <history rdf:datatype="&xsd;string">N/A</history>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#vintage_camera_museum -->
+
+    <owl:Thing rdf:about="#vintage_camera_museum">
+        <pincode rdf:datatype="&xsd;string">122002</pincode>
+        <best_time_to_visit rdf:datatype="&xsd;string"
+            >Anytime of the year</best_time_to_visit>
+        <photos rdf:datatype="&xsd;string">COMING SOON</photos>
+        <reviews rdf:datatype="&xsd;string">COMING SOON</reviews>
+        <description rdf:datatype="&xsd;string">COMING SOON</description>
+        <famous_food rdf:datatype="&xsd;string"
+            >Dunkin doughnuts,Leaping caravan,Not just paranthas.</famous_food>
+        <languages_spoken rdf:datatype="&xsd;string"
+            >English and Hindi</languages_spoken>
+        <city rdf:datatype="&xsd;string">Gurgaon</city>
+        <state rdf:datatype="&xsd;string">HARYANA</state>
+        <aliases rdf:datatype="&xsd;string">N/A</aliases>
+        <history rdf:datatype="&xsd;string">N/A</history>
+        <coordinates rdf:datatype="&xsd;string">N/A</coordinates>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+
