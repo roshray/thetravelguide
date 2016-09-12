@@ -8,7 +8,7 @@ from queryexecutor import *  # This executes the SPARL query and fetches the out
 print("Content-type:text/html\r\n\r\n")
 print("<html>")
 print("<head>")
-print '<link rel="stylesheet" type="text/css" href="/roshan.css">'
+print '<link rel="stylesheet" type="text/css" href="/index.css">'
 print("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>")
 print("<title>Travel Guide</title></head>")
 print("<body></br>")
