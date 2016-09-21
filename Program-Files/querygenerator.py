@@ -40,7 +40,9 @@ def makepair(l1,l2):
 	
 def quegen(l):
 	g=open("subject.txt",'r')
+	#interrogatives that can be used by the users for the query
 	interrogatives=["what","where","when","how","who"]
+	#lists
 	city=["gaya","ajmer","amer","jaipur","bharatpur","patna","chittorgarh","udaipur","deeg","jaisalmer","mount","abu","bodh","gaya","udaipur","pali","jodhpur","bikaner","rajasamand","mandore","nalanda","pushkar","madhopur","kanoi","sasaram","tanot","bundi","thanesar","gurgaon","rohtek","chhat","bilaspur","kurukshetra","panchkula","para","pinjore","jhajjar","ranakpur"]
 	state=["rajasthan","bihar","uttarpradesh","haryana"]
 	attributes=["district","time","city","coordinate","description","food","history","language","photos","pincode","review","state"]	
@@ -52,6 +54,7 @@ def quegen(l):
 		r=g.readline()
 		r=newlineremover(r)
 		dictsub[r]=0
+	#description will be of higher priority because it is almost every time required to be printed 	
 	dictpre={"District":0,"best_time_to_visit":0,"coordinates":0,"description":1,"reviews":0,"languages_spoken":0,"description":0,"city":0,"pincode":0,"famous_food":0,"history":0,"state":0,"photos":0,"Alias":0}
 	for i in city:
 		dictcity[i]=0
@@ -59,11 +62,11 @@ def quegen(l):
 	dictprekeys=dictpre.keys()
 	dictcitykeys=dictcity.keys()
 	for i in l:
-		if i in "what":
+		if i in "what": # if the query has the word "what" then description and the photos should be displayed"
 			dictpre["description"]+=1
 			dictpre["photos"]+=1
 			continue
-		if i in "where":
+		if i in "where": # if the query has the word "where" then location details should be displayed"
 			dictpre["District"]+=1
 			dictpre["coordinates"]+=1
 			dictpre["city"]+=1
@@ -71,10 +74,10 @@ def quegen(l):
 			dictpre["city"]+=1
 			dictpre["state"]+=1
 			continue
-		if i in "when":
+		if i in "when": # if the query has the word "when" then best time to visit should be displayed"
 			dictpre["best_time_to_visit"]+=1
 			continue
-		if i in "how":
+		if i in "how": # if the query has the word "how"(how to reach) then location details must be displayed should be displayed"
 			dictpre["District"]+=1
 			dictpre["coordinates"]+=1
 			dictpre["city"]+=1
@@ -82,36 +85,29 @@ def quegen(l):
 			dictpre["city"]+=1
 			dictpre["state"]+=1
 			continue
-		if i in "who":
+		if i in "who": # if the query has the word "what" then description and the photos should be displayed"
 			dictpre["history"]+=1
 			continue
-		for j in dictsubkeys:
+		for j in dictsubkeys: # dictionary of subject
 			if i in j.lower():
 				dictsub[j]+=1
-		for j in dictprekeys:
+		for j in dictprekeys: # dictionary of predicates
 			if i in j.lower():
 				dictpre[j]+=1
-		for j in dictcitykeys:
+		for j in dictcitykeys: # dictionary of city
 			if i in j.lower():
 				dictcity[j]+=1
 						
-	#print dictsub	
-	#print dictpre	
-	#print dictcity
 	dictpre["description"]=+0.5  #ultimate level of jugaad.
-	sortedsub=dictsort(dictsub)
+	sortedsub=dictsort(dictsub) # sorting the dictionaries based on the values to prioritize the search results
 	sortedpre=dictsort(dictpre)
 	sortedcity=dictsort(dictcity)
-	subpre=makepair(sortedsub,sortedpre)
-	subcity=makepair(sortedsub,sortedcity)
-	precity=makepair(sortedpre,sortedcity)
-	#print subpre
-	#print subcity
-	#print precity
+	subpre=makepair(sortedsub,sortedpre) #subject-predicate pair for fetching object
+	subcity=makepair(sortedsub,sortedcity) #subject-city pair for fetching predicate
+	precity=makepair(sortedpre,sortedcity) #predicate-city pair for fetching subject
 	quelist=list()
 	que=list()
-	#[WARNING] ranking of each dictionary is left. 
-	if len(subpre) is not 0:
+	if len(subpre) is not 0:  # generating queries with known subject and predicate
 		for i in subpre:
 			s="""PREFIX ak: <http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#>
 PREFIX aj: <http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#>
@@ -120,11 +116,11 @@ WHERE {
 ak:"""+i[0]+" ak:"+i[1]+""" ?object 
 }"""
 			que=[]
-			que.append(i[0])
+			que.append(i[0]) #appending headers
 			que.append(i[1])
-			que.append(s)
-			quelist.append(que)
-	if len(subcity) is not 0:
+			que.append(s) #appending SPARQL Query
+			quelist.append(que) 
+	if len(subcity) is not 0: # generating queries with known subject and city(object)
 		for i in subcity:
 			s="""PREFIX ak: <http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#>
 PREFIX aj: <http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#>
@@ -133,12 +129,12 @@ WHERE {
  ak:"""+i[0]+" ?predicate "+"ak:"+i[1]+""" 
 }"""
 			que=[]
-			que.append(i[0])
+			que.append(i[0]) #appending headers
 			que.append(i[1])
-			que.append(s)
+			que.append(s) #appending SPARQL Query
 			quelist.append(que)
 	if len(precity) is not 0:
-		for i in precity:
+		for i in precity: # generating querys with known subject and predicate
 			s="""PREFIX ak: <http://www.semanticweb.org/ontologies/2015/8/Ontology1443603331487.owl#>
 PREFIX aj: <http://www.semanticweb.org/ontologies/2015/8/Ontologytajmahalnew.owl#>
 SELECT ?subject
@@ -146,23 +142,8 @@ WHERE {
 ?subject ak:"""+i[0]+" ak:"+i[1]+""" 
 }"""
 			que=[]
-			que.append(i[0])
+			que.append(i[0]) #appending headers
 			que.append(i[1])
-			que.append(s)
+			que.append(s) #appending SPARQL Query
 			quelist.append(que)
-	return quelist;
-	#print sortedsub
-	#print sortedpre
-	#print sortedcity	
-	#print "\nSubject:"
-	#for j in sortedsub:
-	#	if j[1]!=0:
-	#		print j[0]
-	#print "\nPredictate:"		
-	#for j in sortedpre:
-	#	if j[1]!=0:
-	#		print j[0]
-	#print "\nsome of the objects:"
-	#for j in sortedcity:
-	#	if j[1]!=0:
-	#		print j[0]
+	return quelist; # returning the list of queries and headers.
