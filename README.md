@@ -5,4 +5,4 @@ The folder Sample-Datasets contains two owl(web ontology language) files which s
 
 #DEMO
 
-[![DEMO ON YOUTUBE](https://img.youtube.com/vi/LrqpG56l74E/0.jpg)](https://www.youtube.com/watch?v=LrqpG56l74E)
+[![DEMO ON YOUTUBE](https://img.youtube.com/vi/LrqpG56l74E/0.jpg)](https://www.youtube.com/watch?v=LrqpG56l74E "for more detail-click to watch")
